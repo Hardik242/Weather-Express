@@ -6,7 +6,7 @@ nav {
       position: sticky;
       top: 0;
       z-index: 1;
-      //backdrop-filter: blur(30px);
+     /* backdrop-filter: blur(30px);*/
 }
 
 .logo img {
@@ -33,7 +33,7 @@ nav {
       color: red;
       margin-top: 20px;
       background-color: rgba(100, 100, 100, 0.282);
-      backdrop-filter: blur(30px);
+      /*backdrop-filter: blur(30px);*/
       padding: 50px;
 
 }
@@ -376,7 +376,7 @@ footer {
 
 
 .hour-card {
-      backdrop-filter: blur(10px);
+     /* backdrop-filter: blur(10px);*/
       display: flex;
       flex-direction: column;
       align-items: center;
