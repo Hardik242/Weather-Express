@@ -396,6 +396,10 @@ footer {
       height: 24px;
 }
 
+.time {
+      padding: 10px 0;
+}
+
 @media screen and (max-width: 768px) {
       .container_body {
             width: 100%;
