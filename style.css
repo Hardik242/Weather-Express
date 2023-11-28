@@ -1,0 +1,501 @@
+nav {
+      display: flex;
+      align-items: center;
+      background-color: rgb(49 49 49);
+      margin-bottom: 20px;
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      backdrop-filter: blur(30px);
+}
+
+.logo img {
+      height: 35px;
+      margin: 8px;
+}
+
+.nav-text {
+      margin-left: 10px;
+}
+
+.nav-text h1 {
+      font-size: 1.2rem;
+}
+
+.nav-text p {
+      font-size: 0.8rem;
+}
+
+.error-message {
+      width: 100%;
+      text-align: center;
+      font-size: 1.5rem;
+      color: red;
+      margin-top: 20px;
+      background-color: rgba(100, 100, 100, 0.282);
+      backdrop-filter: blur(30px);
+      padding: 50px;
+
+}
+
+.error-message h1 {
+      font-size: 3rem;
+}
+
+.error-message img {
+      height: 100px;
+}
+
+.container_body {
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 768px;
+      min-height: calc(100vh - 100px);
+}
+
+.landing-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+}
+
+.inputCity {
+      display: flex;
+      flex-direction: column;
+      min-width: 290px;
+      width: 100%;
+
+}
+
+.inputCity button {
+      display: flex;
+      flex-grow: 1;
+      border: none;
+      outline: none;
+      border-radius: 40px;
+      padding: 10px 20px;
+      font-size: 1.2rem;
+      background-color: rgba(0, 0, 0, 0.468);
+      align-items: center;
+}
+
+.inputCity button img {
+      height: 30px;
+      cursor: pointer;
+}
+
+.inputCity input::placeholder {
+      color: #fff;
+}
+
+.inputCity input {
+      flex-grow: 1;
+      border: none;
+      outline: none;
+      padding: 10px 10px;
+      font-size: 1.2rem;
+      background-color: transparent;
+      color: white;
+}
+
+.location-icon {
+      margin-right: 10px;
+}
+
+.getLocation {
+      cursor: pointer;
+}
+
+.getLocation img {
+      height: 40px;
+      margin: 0 10px;
+}
+
+.getLocation span {
+      margin: 10px;
+      /* display: flex; */
+      /* border: none; */
+      /* outline: none; */
+
+}
+
+.getLocation {
+      align-self: center;
+      display: flex;
+      flex-grow: 1;
+      border: none;
+      outline: none;
+      border-radius: 40px;
+      padding: 10px 20px;
+      font-size: 1.2rem;
+      background-color: rgba(0, 0, 0, 0.468);
+      align-items: center;
+}
+
+footer {
+      margin-top: 24px;
+      background-color: rgba(0, 0, 0, 0.408);
+      text-align: center;
+}
+
+.container-data {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+}
+
+.current-card {
+      margin: 25px 0;
+      width: 80%;
+      border-radius: 10px;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      background-color: rgba(52, 52, 52, 0.49);
+      backdrop-filter: blur(15px);
+}
+
+.location {
+      font-size: 1.5rem;
+      margin-bottom: 8px;
+}
+
+.condition-current {
+      margin-bottom: 18px;
+      font-size: 1.5rem;
+}
+
+.condition-icon-current img {
+      /* margin-bottom: 8px; */
+      height: 80px;
+}
+
+.temp-today-current {
+      font-size: 3rem;
+}
+
+.local-time {
+      margin: 8px 0;
+      padding: 10px 20px;
+      background-color: rgba(221, 155, 155, 0.467);
+      font-size: 1rem;
+}
+
+.extra-info {
+      margin: 24px 0 12px 0;
+      text-align: left;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-auto-columns: 1fr;
+      gap: 12px 20px;
+      /* grid-auto-flow: row; */
+      grid-template-areas:
+            "one two"
+            "three four"
+            "five six"
+            "seven eight"
+            "nine ten"
+            "eleven twelve";
+}
+
+.one {
+      grid-area: one;
+}
+
+.two {
+      grid-area: two;
+}
+
+.three {
+      grid-area: three;
+}
+
+.four {
+      grid-area: four;
+}
+
+.five {
+      grid-area: five;
+}
+
+.six {
+      grid-area: six;
+}
+
+.seven {
+      grid-area: seven;
+}
+
+.eight {
+      grid-area: eight;
+}
+
+.nine {
+      grid-area: nine;
+}
+
+.ten {
+      grid-area: ten;
+}
+
+.eleven {
+      grid-area: eleven;
+}
+
+.twelve {
+      grid-area: twelve;
+}
+
+.daily-forecast-container {
+      display: grid;
+      row-gap: 25px;
+      width: 70%;
+}
+
+
+.day-forecast {
+      background-color: rgba(0, 0, 0, 0.23);
+      backdrop-filter: blur(20px);
+      border-radius: 10px;
+      padding: 10px;
+}
+
+.daily-card {
+      background-color: #e3e3e331;
+      border-radius: 10px;
+      overflow-x: auto;
+}
+
+.day-date {
+      font-size: 1.2rem;
+      text-align: center;
+      padding: 10px;
+      border-radius: 10px;
+      width: 100%;
+      background-color: rgba(221, 155, 155, 0.467);
+}
+
+.date-data {
+      font-size: 0.8rem;
+      /* text-align: center; */
+      padding: 10px;
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: auto auto;
+      grid-auto-columns: 1fr;
+      gap: 2% 2%;
+      grid-auto-flow: row;
+      grid-template-areas:
+            "condition-pos condition-pos"
+            "data-pos astro-pos";
+}
+
+.condition-pos {
+      grid-area: condition-pos;
+}
+
+.data-pos {
+      grid-area: data-pos;
+}
+
+.astro-pos {
+      grid-area: astro-pos;
+}
+
+.day-cast-data-condition {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+}
+
+.day-cast-data-condition img {
+      height: 60px;
+}
+
+.day-cast-data-condition span {
+      font-size: 1.3rem;
+}
+
+.astro-data {
+      display: flex;
+      flex-direction: column;
+      font-size: 0.8rem;
+      row-gap: 5px;
+}
+
+.temp-data {
+      display: flex;
+      flex-direction: column;
+      font-size: 0.8rem;
+      row-gap: 5px;
+}
+
+.show-hourly {
+      margin: 8px 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.show-hourly span {
+      font-size: 1.1rem;
+      margin-right: 20px;
+}
+
+.hourly-forecast {
+      background-color: rgba(81, 79, 79, 0.23);
+      backdrop-filter: blur(20px);
+      display: flex;
+      column-gap: 20px;
+      overflow-x: auto;
+      padding: 10px;
+      border-radius: 10px;
+}
+
+.hourly-forecast::-webkit-scrollbar-track {
+      background: #737373;
+}
+
+.hourly-forecast::-webkit-scrollbar-thumb {
+      background-color: #c59b9b;
+      border-radius: 10px;
+      border: none;
+}
+
+.hourly-forecast::-webkit-scrollbar {
+      width: 5px;
+}
+
+
+.hour-card {
+      backdrop-filter: blur(10px);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px 10px;
+      justify-content: space-evenly;
+      border-radius: 10px;
+      background-color: rgb(0 0 0 / 27%);
+
+}
+
+.rain-percent {
+      display: flex;
+      align-items: center;
+}
+
+.rain-percent img {
+      height: 24px;
+}
+
+@media screen and (max-width: 768px) {
+      .container_body {
+            width: 100%;
+      }
+
+      .inputCity {
+            /* min-width: 250px; */
+            width: 90%;
+      }
+
+      .inputCity button {
+            padding: 6px 10px;
+            font-size: 0.8rem;
+      }
+
+      .inputCity input {
+            font-size: 0.8rem;
+            padding: 6px 10px;
+      }
+
+      .inputCity button img {
+            height: 20px;
+      }
+
+      .location-icon {
+            margin-right: 6px;
+      }
+
+      .getLocation img {
+            height: 30px;
+      }
+
+      .getLocation {
+            font-size: 0.8rem;
+      }
+
+      .getLocation span {
+            margin: 0;
+      }
+
+      footer {
+            font-size: 0.8rem;
+      }
+
+      .location {
+            font-size: 1rem;
+      }
+
+      .condition-current {
+            font-size: 1.2rem;
+      }
+
+      .condition-icon-current img {
+            height: 60px;
+      }
+
+      .temp-today-current {
+            font-size: 1.5rem;
+      }
+
+      .local-time {
+            font-size: 0.9rem;
+      }
+
+      .extra-info {
+            font-size: 0.8rem;
+            gap: 5px 10px;
+      }
+
+      .current-card {
+            width: 92%;
+            padding: 6px;
+      }
+
+      .daily-forecast-container {
+            width: 90%;
+      }
+
+      .day-date {
+            font-size: 1rem;
+      }
+
+      .date-data {
+            padding: 6px;
+            font-size: 0.7rem;
+      }
+
+      .day-cast-data-condition img {
+            height: 40px;
+      }
+
+      .day-cast-data-condition span {
+            font-size: 1.1rem;
+      }
+
+      .astro-data {
+            font-size: 0.7rem;
+      }
+
+      .temp-data {
+            font-size: 0.7rem;
+      }
+}
