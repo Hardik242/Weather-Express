@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="bg-body">
+<html lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -22,12 +22,14 @@
             }
             body {
                 color: rgb(255, 255, 255);
+                height: 100vh;
             }
             .bg-body {
+                width: 100vw;
                 background-image: url(images/pxfuel.jpg);
                 background-repeat: no-repeat;
                 background-position: center;
-                background-size: 100vw 100vh;
+                background-size: 100.5vw 100.5vh;
                 background-attachment: fixed;
             }
             .hidden {
@@ -35,7 +37,7 @@
             }
         </style>
     </head>
-    <body>
+    <body class="bg-body">
         <nav>
             <div class="logo">
                 <img src="images/logo.png" alt="" />

@@ -1,5 +1,4 @@
 const api_key = "b442957534684a9cbdb182116232511";
-const api_key_location = "f71186dac9004e4eaea3b1941ff3bcef";
 let city_name;
 let days_show;
 let url, x, data_body;
