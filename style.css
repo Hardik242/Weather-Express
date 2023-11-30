@@ -365,7 +365,8 @@ footer {
 
 .day-forecast {
       background-color: rgba(0, 0, 0, 0.23);
-      border-radius: 10px;
+      <<<<<<< HEAD======= //backdrop-filter: blur(20px);
+      >>>>>>>84a8c5b3872b2ad237b2f95aec5ed7af15676447 border-radius: 10px;
       padding: 10px;
 }
 
@@ -487,9 +488,10 @@ footer {
 
 .hourly-forecast {
       background-color: rgba(81, 79, 79, 0.23);
-      display: -webkit-box;
+      <<<<<<< HEAD display: -webkit-box;
       display: -ms-flexbox;
-      display: flex;
+      ======= //backdrop-filter: blur(20px);
+      >>>>>>>84a8c5b3872b2ad237b2f95aec5ed7af15676447 display: flex;
       -webkit-column-gap: 20px;
       -moz-column-gap: 20px;
       column-gap: 20px;
@@ -514,9 +516,11 @@ footer {
 
 
 .hour-card {
-      display: -webkit-box;
+      <<<<<<< HEAD display: -webkit-box;
       display: -ms-flexbox;
-      display: flex;
+      =======
+      /* backdrop-filter: blur(10px);*/
+      >>>>>>>84a8c5b3872b2ad237b2f95aec5ed7af15676447 display: flex;
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
       -ms-flex-direction: column;
