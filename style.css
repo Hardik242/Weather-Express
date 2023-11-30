@@ -169,10 +169,6 @@ nav {
 
 .getLocation span {
       margin: 10px;
-      /* display: flex; */
-      /* border: none; */
-      /* outline: none; */
-
 }
 
 .getLocation {
@@ -365,8 +361,7 @@ footer {
 
 .day-forecast {
       background-color: rgba(0, 0, 0, 0.23);
-      <<<<<<< HEAD======= //backdrop-filter: blur(20px);
-      >>>>>>>84a8c5b3872b2ad237b2f95aec5ed7af15676447 border-radius: 10px;
+      border-radius: 10px;
       padding: 10px;
 }
 
@@ -488,10 +483,9 @@ footer {
 
 .hourly-forecast {
       background-color: rgba(81, 79, 79, 0.23);
-      <<<<<<< HEAD display: -webkit-box;
+      display: -webkit-box;
       display: -ms-flexbox;
-      ======= //backdrop-filter: blur(20px);
-      >>>>>>>84a8c5b3872b2ad237b2f95aec5ed7af15676447 display: flex;
+      display: flex;
       -webkit-column-gap: 20px;
       -moz-column-gap: 20px;
       column-gap: 20px;
@@ -516,11 +510,9 @@ footer {
 
 
 .hour-card {
-      <<<<<<< HEAD display: -webkit-box;
+      display: -webkit-box;
       display: -ms-flexbox;
-      =======
-      /* backdrop-filter: blur(10px);*/
-      >>>>>>>84a8c5b3872b2ad237b2f95aec5ed7af15676447 display: flex;
+      display: flex;
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
       -ms-flex-direction: column;
