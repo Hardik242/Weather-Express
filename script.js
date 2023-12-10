@@ -1,4 +1,5 @@
-const api_key = "b442957534684a9cbdb182116232511";
+// const api_key = "b442957534684a9cbdb182116232511";
+const api_key = "3d0b7c27b3e84cfa9de110610231012";
 let city_name;
 let days_show;
 let url, x, data_body;
